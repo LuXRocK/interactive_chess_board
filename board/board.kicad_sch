@@ -1,0 +1,512 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "14fd62ca-5e66-41e8-8239-a3222b72a7bd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 144.78)
+		(size 111.76 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65b56188-a11b-49a7-ae1e-a0c27a5387eb")
+		(property "Sheetname" "ROW_2"
+			(at 21.59 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "row2.kicad_sch"
+			(at 21.59 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 21.59 157.48 180)
+			(uuid "3d49f334-ed5a-4e92-a7bf-918e15920973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 21.59 151.13 180)
+			(uuid "5790bcbc-0f51-45b0-9e53-5f2751de0a93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_B_2_OUT" input
+			(at 52.07 144.78 90)
+			(uuid "349e16ed-8f0f-4d60-81eb-4f03c060e303")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_A_2_OUT" input
+			(at 39.37 144.78 90)
+			(uuid "cc9a73ab-2360-4b2d-a84c-58769c2af88c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_C_2_OUT" input
+			(at 64.77 144.78 90)
+			(uuid "e81b5a91-54d5-4bc1-8296-bbb86883bfbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_D_2_OUT" input
+			(at 77.47 144.78 90)
+			(uuid "e6e132f6-b0ab-4232-9a07-684ca1d66982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_E_2_OUT" input
+			(at 90.17 144.78 90)
+			(uuid "b2dd82d5-f66a-4a9f-8669-a5469c562228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_F_2_OUT" input
+			(at 102.87 144.78 90)
+			(uuid "4481cf8d-a071-4992-b1bf-df5dbb9424bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_G_2_OUT" input
+			(at 115.57 144.78 90)
+			(uuid "07b2d389-b64c-4b83-b37c-c3ae0febfbe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_H_2_OUT" input
+			(at 128.27 144.78 90)
+			(uuid "7424e45b-f9c3-41bb-a9f6-5f958ef55c35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 52.07)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae2a44a7-3d38-4e5c-90c9-b960d226b521")
+		(property "Sheetname" "HALL_SENSOR"
+			(at 78.74 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_sensor.kicad_sch"
+			(at 78.74 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC" input
+			(at 78.74 54.61 180)
+			(uuid "f52bff7e-871f-4af2-85e2-9d2e5369b8cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 78.74 59.69 180)
+			(uuid "ae45d29c-b045-4855-a39f-150804327713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_OUT" output
+			(at 91.44 57.15 0)
+			(uuid "6525f269-a1ed-404c-a2a4-3586b7d8551e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 118.11)
+		(size 111.76 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f05e4a19-726e-4160-a1a1-01940d0bef22")
+		(property "Sheetname" "ROW_3"
+			(at 21.59 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "row3.kicad_sch"
+			(at 21.59 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 21.59 130.81 180)
+			(uuid "4ed6985b-fdfb-42a1-b978-d1bc9476d104")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_A_3_OUT" input
+			(at 39.37 118.11 90)
+			(uuid "8e146d66-0031-414d-b597-9b7555a487cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_B_3_OUT" input
+			(at 52.07 118.11 90)
+			(uuid "fbcd1946-1529-4f65-bc03-2b0603797464")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_C_3_OUT" input
+			(at 64.77 118.11 90)
+			(uuid "2c0417f5-b6ad-43c4-bf61-1a3ebce56ec4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_D_3_OUT" input
+			(at 77.47 118.11 90)
+			(uuid "30c792d1-6d30-40b9-8007-7e80e6809db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_E_3_OUT" input
+			(at 90.17 118.11 90)
+			(uuid "ffa15347-7db3-44cc-af57-f666b1d853a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_F_3_OUT" input
+			(at 102.87 118.11 90)
+			(uuid "2b847f5d-6d4f-439d-9c54-54602729564f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_G_3_OUT" input
+			(at 115.57 118.11 90)
+			(uuid "06f46a44-e44f-45de-921f-99e609db145a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_H_3_OUT" input
+			(at 128.27 118.11 90)
+			(uuid "ba3d33fc-821e-4221-9a86-d61a05cc7c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 21.59 124.46 180)
+			(uuid "d2bf198d-cf7b-4011-a0a6-e75a2d83342f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 171.45)
+		(size 111.76 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f575dc6f-a709-4fff-8ef4-773ff67c5635")
+		(property "Sheetname" "ROW_1"
+			(at 21.59 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 21.59 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 21.59 184.15 180)
+			(uuid "199234b6-eb96-429b-8235-fc1f777db828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 21.59 177.8 180)
+			(uuid "f70e9b43-295f-4172-a792-d5bebf86f98c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_A_1_OUT" input
+			(at 39.37 171.45 90)
+			(uuid "3ac18529-58e5-4092-927c-c5f27a026711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_B_1_OUT" input
+			(at 52.07 171.45 90)
+			(uuid "4c78cbff-6026-47c2-9cf9-9312cd6742dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_C_1_OUT" input
+			(at 64.77 171.45 90)
+			(uuid "dba23866-4989-447e-8edf-dbc3a1a1b747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_D_1_OUT" input
+			(at 77.47 171.45 90)
+			(uuid "bd323530-e303-4ab4-87da-5da61874969b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_E_1_OUT" input
+			(at 90.17 171.45 90)
+			(uuid "09bc7edd-0c32-425b-a609-2227c3d23058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_F_1_OUT" input
+			(at 102.87 171.45 90)
+			(uuid "84381c04-06da-4e3f-801f-ba4c5f868e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_G_1_OUT" input
+			(at 115.57 171.45 90)
+			(uuid "12a9d1ea-b2b1-4454-87d6-552feaf4f38c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_H_1_OUT" input
+			(at 128.27 171.45 90)
+			(uuid "9fed49db-e9d5-458d-985c-b2b0a005940d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
