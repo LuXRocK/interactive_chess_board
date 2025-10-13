@@ -884,7 +884,7 @@
 			(uuid "9703d657-ec04-40d2-afee-1415b27b2835")
 		)
 		(instances
-			(project "board"
+			(project ""
 				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd/f575dc6f-a709-4fff-8ef4-773ff67c5635"
 					(reference "#PWR06")
 					(unit 1)
@@ -950,7 +950,7 @@
 			(uuid "6af08e07-5410-43cc-b121-3cc2dea37e8a")
 		)
 		(instances
-			(project "board"
+			(project ""
 				(path "/14fd62ca-5e66-41e8-8239-a3222b72a7bd/f575dc6f-a709-4fff-8ef4-773ff67c5635"
 					(reference "#PWR05")
 					(unit 1)
